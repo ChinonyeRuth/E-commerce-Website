@@ -71,6 +71,10 @@ header nav ul li a {
   margin-right: 24px;
 }
 
+header nav ul li a:hover {
+  color: #3e50e5;
+}
+
 header nav ul li:last-of-type a {
   margin-right: 0;
 }
@@ -138,6 +142,12 @@ section.hero img {
   border: none;
 }
 
+.hero_content .container button:hover {
+  color: #3e50e5;
+  background-color: #ffffff;
+  border: 1px solid #3e50e5;
+  cursor: pointer;
+}
 section.best_sellers {
   padding-top: 80px;
 }
