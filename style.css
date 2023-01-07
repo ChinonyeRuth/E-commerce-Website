@@ -185,6 +185,7 @@ section.best_sellers .product_slider .product {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  cursor: pointer;
 }
 
 section.best_sellers .product_slider .product.new::before {
@@ -252,7 +253,11 @@ section.best_sellers .product_slider .product .product_info button {
   line-height: 24px;
   border: 1px solid #000;
 }
-
+section.best_sellers .product_slider .product:hover .product_info button {
+  color: #ffffff;
+  background-color: #3e50e5;
+  border: 1px solid #3e50e5;
+}
 section.best_sellers
   .product_slider
   .product
@@ -331,8 +336,13 @@ section.newsletter button {
   border: 1px solid #3e50e5;
   text-transform: uppercase;
   color: #ffffff;
+  cursor: pointer;
 }
-
+section.newsletter form button:hover {
+  background-color: #3e50e5;
+  border: 1px solid #3e3e3e;
+  color: #ffffff;
+}
 footer .bottom_nav {
   padding: 60px 0;
   background-color: #3e3e3e;
@@ -375,6 +385,10 @@ footer .bottom_nav .container ul li a {
   margin-bottom: 10px;
   color: #e0e0e0;
   display: block;
+}
+
+footer .bottom_nav .container ul li a:hover {
+  color: #3e50e5;
 }
 footer .bottom_nav .container ul {
   list-style-type: none;
