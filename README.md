@@ -1,5 +1,7 @@
 # E-commerce-Website
 E-commerce website created by Chinonye Ibeakanma
+
+
 I'm excited to announce that I have recently created an ecommerce website that allows businesses to sell their products online using only HTML and CSS.
 
 Creating this website has been a great learning experience for me, as I have gained valuable skills in web design and development. I have enjoyed working with HTML and CSS to create the layout, styling, and functionality of the website.
